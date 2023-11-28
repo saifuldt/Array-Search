@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.inp{
+    text-align: center;
+    margin-top: 20px;
+    
+    
+}
+input{
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid gray;
+    border-radius: 7px;
+}
+.rsp {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+.rsp span{
+    color: gray;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight:700;
+}
+
