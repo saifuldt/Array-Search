@@ -3,6 +3,7 @@ const myArray = ["saiful bin atoar", "selim reza", "sabbir hossain", "abdullah b
 const search = document.querySelector(".search");
 const submit = document.querySelector(".submit");
 const resultElement = document.querySelector("#result");
+const exampleName = document.querySelector("#arrayList");
 
 function checkName(name) {
     return name.toLowerCase() === search.value.toLowerCase();
