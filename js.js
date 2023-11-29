@@ -33,7 +33,7 @@ submit.onclick = function() {
 
  function el2 (enl){
     const namesAsString = enl.join('   ,   '); 
-    exampleName.textContent =`Example: ${namesAsString}` ;
+    exampleName.textContent ="Example: " + namesAsString ;
 };
 el2(myArray);
 
