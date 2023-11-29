@@ -15,7 +15,7 @@ function myFunc() {
         const foundName = myArray[foundIndex];
         return `Welcome <span>${foundName}</span> ! You are selected.`;
     } else {
-        return ` Sorry, <span>${search.value}</span> is not in the list. Please try again. `;
+        return ` Sorry, <span class = "ppp">${search.value}</span> is not in the list. Please try again. `;
     }
 };
 
