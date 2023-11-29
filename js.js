@@ -24,7 +24,15 @@ submit.onclick = function() {
     resultElement.innerHTML = el;
 };
 
- myArray[29]= "mostarika";
+ myArray[28]= "saiful";
  myArray.push( "hasina mami", "athik hasan", "mostak");
  myArray.pop();
  myArray.splice(29, 2, );
+
+
+ function el2 (enl){
+    const namesAsString = enl.join('   ,   '); 
+    exampleName.textContent =`Example: ${namesAsString}` ;
+};
+el2(myArray);
+
