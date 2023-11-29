@@ -5,6 +5,8 @@ const submit = document.querySelector(".submit");
 const resultElement = document.querySelector("#result");
 const exampleName = document.querySelector("#arrayList");
 
+
+
 function checkName(name) {
     return name.toLowerCase() === search.value.toLowerCase();
 };
@@ -25,6 +27,7 @@ submit.onclick = function() {
     resultElement.innerHTML = el;
 };
 
+
  myArray[28]= "saiful";
  myArray.push( "hasina mami", "athik hasan", "mostak");
  myArray.pop();
@@ -33,7 +36,6 @@ submit.onclick = function() {
 
  function el2 (enl){
     const namesAsString = enl.join('   ,   '); 
-    exampleName.textContent ="Example: " + namesAsString ;
+    exampleName.textContent =`Example: ${namesAsString}` ;
 };
 el2(myArray);
-
